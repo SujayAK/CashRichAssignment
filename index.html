@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bar Chart</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="icon" href="./statistics.png" type="iamge/x-icon" />
+    <!-- using CDN for displaying bar charts , Importing from JsDelivr -> chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Price Chart</h1>
+  
+
+      <input
+        type="text"
+        id="symbolInput"
+        placeholder="Enter Symbols (comma-separated)"
+      />
+      
+      <button id="submitBtn">Show Price</button>
+      <div class="hint">
+        <p>
+        Try out some cryptocurrency symbols
+          BTC,LTC,BNB,USDT,EOS,XMR..
+        </p>
+      <div id="graphContainer"></div>
+
+      
+      </div>
+      <div class="lists">
+        Get complete lists of <a href="https://coinmarketcap.com/">cryptocurrency names</a>
+      </div>
+      <footer>&copy;Copyright CashRich 2023</footer>
+    </div>
+    
+
+    <script src="index.js"></script>
+  </body>
+</html>
