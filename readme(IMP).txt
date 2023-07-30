@@ -1,16 +1,14 @@
 This text file is the description of files,packages,CDNs and many more ,used in this application 
 
 *IMP*
+This website is not deployed due to some reasons, so it is usable only in deployment mode.
 Procedure to start the application
 
 Step 1:
-Start the node server using command in terminal "node server.js"  /*ISSUE .. how do I keep server oN?.*/
---index.html--
-This is the basic html file which contains basic structure of the website
+Start the node server using command in terminal ###`node server.js`  /*ISSUE .. how do I keep server oN?.*/
 
---index.js--
-
---server.js--
+Step 2 
+In another terminal , type command ###`npm start`
 
 
 Higher order functions uesd (built-in JS)
