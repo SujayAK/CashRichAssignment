@@ -5,10 +5,10 @@ This website is not deployed due to some reasons, so it is usable only in deploy
 Procedure to start the application
 
 Step 1:
-Start the node server using command in terminal ### `node server.js`  /*ISSUE .. how do I keep server oN?.*/
+Start the node server using command in terminal ### node server.js  /*ISSUE .. how do I keep server oN?.*/
 
 Step 2 
-In another terminal , type command ### `npm start`
+In another terminal , type command ### npm start
 
 
 Higher order functions uesd (built-in JS)
