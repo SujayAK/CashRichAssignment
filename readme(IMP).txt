@@ -6,7 +6,7 @@ Procedure to start the application
 
 Step 1:
 Start the node server using command in terminal 
-### 'node server.js'  
+### `node server.js`  
 /*ISSUE .. how do I keep server oN?.*/
 
 Step 2 
